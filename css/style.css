@@ -1,0 +1,155 @@
+/* =============================================================================
+   NORMALIZATION
+========================================================================== */
+
+*  {
+  margin: 0;
+  padding: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+[hidden] { display: none; }
+
+ul, ol {
+    list-style: none;
+}
+
+
+/* =============================================================================
+   COMMONS
+========================================================================== */
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+    background-color: #EEEEEE;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: x-small;
+    color: #666666;
+}
+
+h1 {
+  color: #c63e3c;
+  padding: 10px 50px 2px 50px;
+}
+
+a {
+    color: #004756;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 960px;
+}
+
+
+/* Gridster styles */
+
+.gridster {
+    background: #ddd;
+    border: 1px solid #666;
+    border-radius: 5px;
+    padding: 5px;
+    width: 900px;
+    margin: 0 auto;
+    -webkit-box-shadow: 0 0 7px rgba(0,0,0,0.4);
+    box-shadow: 0 0 7px rgba(0,0,0,0.4);
+}
+
+.gridster .gs-w {
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.9);
+    box-shadow: 0 0 3px rgba(0,0,0,0.9);
+}
+
+.gridster .player {
+    -webkit-box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+}
+
+.gridster .preview-holder {
+    border: none!important;
+    border-radius: 0!important;
+    background: rgba(255,255,255,.2)!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+.bento {
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+}
+
+.beanseaweed {
+  background-color: #dac1b2;
+  background-image: url(../img/beanseaweed.jpg);
+}
+.fish {
+  background-color: #b6e9ee;
+  background-image: url(../img/fish.jpg);
+  background-size: 100%;
+}
+.gingerwasabi {
+  background-color: #b1c8a7;
+  background-image: url(../img/gingerwasabi.jpg);
+}
+.karaage {
+  background-color: #ffe891;
+  background-image: url(../img/karaage.jpg);
+}
+.maki {
+  background-color: #79dadd;
+  background-image: url(../img/maki.jpg);
+  background-position: top left;
+  background-repeat: repeat;
+}
+.prawntempura {
+  background-color: #f3bdc5;
+  background-image: url(../img/prawntempura.jpg);
+}
+.rice {
+  background-color: #a89aa8;
+  background-image: url(../img/rice.jpg);
+}
+.salad {
+  background-color: #8ed5ce;
+  background-image: url(../img/salad.jpg);
+}
+.sashimi {
+  background-color: #e7c0ba;
+  background-image: url(../img/sashimi.jpg);
+  background-size: 100%;
+}
+.special {
+  background-color: #ffebad;
+  background-image: url(../img/special.jpg);
+}
+.sushi {
+  background-color: #ebe2bf;
+  background-image: url(../img/sushi.jpg);
+}
+.tofu {
+  background-color: #c4cf64;
+  background-image: url(../img/tofu.jpg);
+}
+
+.hashi {
+  background: transparent url(../img/hashi.png) top left no-repeat;
+  height: 218px;
+  margin: 0 auto;
+  width: 700px;
+}
+
